@@ -17,4 +17,4 @@ print("total: {:.2f} R$".format(total_abastecido))
 print("vou contar de 1 a 10")
 for i in range(10):
     valor = i + 1
-    print(f"contando de 1 a 10: {valor:2}")
+    print(f"contando: {valor:2}")
