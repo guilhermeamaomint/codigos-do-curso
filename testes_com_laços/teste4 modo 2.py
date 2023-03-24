@@ -7,3 +7,4 @@ for nome in nomes:
         nomes_com_até_5_caract.append(nome)
         
 print(nomes_com_até_5_caract)
+print([nome.upper() for nome in nomes])
