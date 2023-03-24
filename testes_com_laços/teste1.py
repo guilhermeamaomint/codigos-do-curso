@@ -14,3 +14,7 @@ for num in range(1, 7):
 nomes_e_idades = zip(nomes, nums)
 
 print(next(nomes_e_idades))
+
+for nome3, idade3 in nomes_e_idades:
+    print(nome3.lower())
+    print(idade3)
