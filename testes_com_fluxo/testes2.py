@@ -1,5 +1,4 @@
 import random as rd
-import random as rd
 d20 = rd.randint(1,20)
 if d20 == 1:
     print("o player tirou uma falha critica")
