@@ -16,9 +16,4 @@ nomes_e_idades = zip(nomes, nums)
 print(next(nomes_e_idades))
 
 for nome3, idade3 in nomes_e_idades:
-    print(nome3.lower())
-    print(idade3)
-listadenomeseidades = list(zip(nomes, nums))
-print(listadenomeseidades)
-for nome3, idade3 in nomes_e_idades:
-    print(f"{nome3} tem {idade3} anos")
+    print(f"{nome3.lower()} tem {idade3} anos")
