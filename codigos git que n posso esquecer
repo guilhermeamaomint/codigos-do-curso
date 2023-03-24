@@ -1,5 +1,5 @@
 git -u origin "https do repositorio"
-git push -u origin main
+git push -u origin (NOME DA BRANCH(GERALMENTE MAIN))
 git remote add origin <REMOTE_URL>
 git pull origin nome_branch
 git branch (NÃO COLOCA O -b POR FAVOR, 
