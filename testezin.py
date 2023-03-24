@@ -7,3 +7,4 @@ print(f"o curso tbm me ensinou a usar o {fa}"
       )
 #testando branches
 print("ta dando errado :)")
+print("deucerto :))))))")
