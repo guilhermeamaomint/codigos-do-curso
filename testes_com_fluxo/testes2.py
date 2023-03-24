@@ -9,3 +9,4 @@ elif 10 < d20 < 20:
 else:
     print("O PLAYER TIROU UM 20!!!! MINHA NOSSA")
 print(f"o numero tirado no d20 foi {d20}")
+#jogar rpg é mais simples doq parece
