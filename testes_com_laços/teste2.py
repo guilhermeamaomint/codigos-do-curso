@@ -16,5 +16,3 @@ nomes_e_idades = zip(nomes, nums)
 for nome3, idade3 in nomes_e_idades:
     print(f"{nome3.lower()} tem {idade3} anos")
 
-for indice, idade in enumerate(idade3):
-    print(f"indice:{indice} contem idade maior que 50")
