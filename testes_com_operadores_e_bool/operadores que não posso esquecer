@@ -1,0 +1,6 @@
+== → Operador “igual a”
+!= → Operador “diferente de”
+< → Operador “menor que”
+<= → Operador “menor ou igual a”
+> → Operador “maior que”
+>= → Operador “maior ou igual a”
