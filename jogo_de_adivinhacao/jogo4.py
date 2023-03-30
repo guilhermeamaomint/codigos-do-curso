@@ -6,6 +6,7 @@ while tentativas != 0:
     tentativas -= 1
     if numero == chute:
         print("Parabens, vc acertou!")
+        break
     elif numero > chute:
         print("vc errou, o numero era maior")
     else:
