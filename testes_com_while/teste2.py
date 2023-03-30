@@ -4,7 +4,7 @@ soma = 0
 
 contagem = 0
 
-max_repeticoes = 1000
+max_repeticoes = 100
 
 while soma < 100:
     soma -= 1
