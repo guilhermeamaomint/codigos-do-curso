@@ -1,2 +1,2 @@
-def coiso(nome, idade):
-    print("oi", nome, "sua idade é", idade)
+from funcoes import coiso as cs
+cs("gui", 16)
