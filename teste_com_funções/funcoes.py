@@ -12,3 +12,21 @@ def juros_simples(capital, taxa, tempo):
 
 def mistura_de_palavras(*args):
     return '_'.join(args)
+
+def testez():
+    numero = input("Digite um número para teste: ")
+    return numero
+
+def nome_do_guigo():
+    varcontrole = False
+    nome = input("digite guilherme: ")
+    if nome == "guilherme":
+        varcontrole = True
+    print(f"o nome digitado foi: {nome}")
+    return varcontrole
+
+def soma_numeros(*args):
+    soma = 0
+    for numero in args:
+        soma = soma + numero
+    return soma
