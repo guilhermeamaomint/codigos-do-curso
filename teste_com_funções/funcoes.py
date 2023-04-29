@@ -30,3 +30,12 @@ def soma_numeros(*args):
     for numero in args:
         soma = soma + numero
     return soma
+
+def nomes_lista():
+    nomes = ['MARIA', 'JOÃO', 'ANA', 'PEDRO']
+    varcontrole = False
+    nome = input("digite seu nome: ").upper()
+    if nome in nomes:
+        varcontrole = True
+    print(f"o nome digitado foi: {nome}")
+    return varcontrole

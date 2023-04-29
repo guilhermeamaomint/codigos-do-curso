@@ -7,3 +7,4 @@ teste = soma_numeros(
     int(input("numero 5: ")),
 )
 print(teste)
+# esse ficou legal
