@@ -70,7 +70,7 @@ def lancardados():
 # inicio do codigo #
 ####################
 
-print("bom dia mestre!")
+print("bom dia Guilherme!")
 ficha = input("vai usar qual ficha hoje? ")
 
 if ficha in fichas:
@@ -90,20 +90,24 @@ if ficha in fichas:
         sab = 3
         car = 5
         proef = 3    
-    elif ficha == "5":
-        forc = 3
-        des = 0
-        const = 1 
-        inte = -1
-        sab = 2
-        car = 2
-        proef = 2
+    elif ficha == "iccarion":
+        print("Sinto muito gui, deixe ele descançar")
+        print("Ele ja fez muito por nós")
+        forc = 5
+        des = 1
+        const = 3 
+        inte = 0
+        sab = -1
+        car = 3
+        proef = 5
+        vida = 154
 
 elif ficha not in fichas:
     print("ficha, n encontrada parceiro, deseja inserir modificadores avulsos?")
     inserirmanualmente = input("sim ou não? ")
     if inserirmanualmente in sim:
         print("joia, só não esqueça de salvar os valores no codigo depois.")
+        nome_novo = (input("Insira o nome do personagem: "))
         forc = int(input("força: "))
         des = int(input("destreza: "))
         const = int(input("constituição: "))
@@ -111,6 +115,7 @@ elif ficha not in fichas:
         sab = int(input("sabedoria: "))
         car = int(input("carisma: "))
         proef = int(input("modificador de proeficiencia: "))
+        vida = int(input("vida do consagrado: "))
     else:
         print("vai querer só rolar os dados sem nada?")
         vai = input("s ou n? ")
@@ -132,7 +137,7 @@ while verdade:
                     modificador2 = forc + proef
                     break
                 elif modificador in destreza:
-                    modificador2 = dest + proef
+                    modificador2 = des + proef
                     break
                 elif modificador in constituição:
                     modificador2 = const + proef
@@ -144,7 +149,7 @@ while verdade:
                     modificador2 = sab + proef
                     break
                 elif modificador in destreza:
-                    modificador2 = dest + proef
+                    modificador2 = des + proef
                     break
                 elif modificador in carisma:
                     modificador2 = car + proef
@@ -155,7 +160,7 @@ while verdade:
                     modificador2 = forc 
                     break
                 elif modificador in destreza:
-                    modificador2 = dest 
+                    modificador2 = des
                     break
                 elif modificador in constituição:
                     modificador2 = const 
@@ -167,7 +172,7 @@ while verdade:
                     modificador2 = sab 
                     break
                 elif modificador in destreza:
-                    modificador2 = dest 
+                    modificador2 = des
                     break
                 elif modificador in carisma:
                     modificador2 = car
