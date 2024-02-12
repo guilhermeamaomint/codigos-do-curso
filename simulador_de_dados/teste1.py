@@ -9,5 +9,4 @@ while rolagem <= quantidade:
     rolagem += 1
     total = total + valor
 print(f"O total é: {total}")
-print(f"A media é: {total / quantidade}")
 print("FIM DO PROGRAMA")
