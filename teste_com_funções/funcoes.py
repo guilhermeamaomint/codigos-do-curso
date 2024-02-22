@@ -39,5 +39,6 @@ def nomes_lista():
         varcontrole = True
     print(f"o nome digitado foi: {nome}")
     return varcontrole
+
 def descricao_de_livro(titulo, autor="desconhecido"):
     print(f"o nome do livro é: {titulo}",f"o nome do autor do livro é {autor}", sep="\n")
