@@ -41,4 +41,4 @@ def nomes_lista():
     return varcontrole
 
 def descricao_de_livro(titulo, autor="desconhecido"):
-    print(f"o nome do livro é: {titulo}",f"o nome do autor do livro é {autor}", sep="\n")
+    print(f"O nome do livro é: {titulo}",f"O nome do autor do livro é: {autor}", sep="\n")
