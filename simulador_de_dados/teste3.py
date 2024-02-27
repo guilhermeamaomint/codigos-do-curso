@@ -7,7 +7,7 @@ while rolagem <= quantidade:
     valor = rd.randint(1, 2)
     valores.append(valor)
     rolagem += 1
-if rolagem == 1:
-    print("jogar lol")
-else:
-    print("não jogar lol")
+    if valor == 1:
+        print("jogar lol")
+    else:
+        print("não jogar lol")
