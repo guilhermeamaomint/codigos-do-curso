@@ -3,7 +3,3 @@ def abertura(numero):
         print(numero)
         numero = numero - 1
     print("0")
-
-    # for i in range(n):
-    #     print(i)
-    #     i -= 1
