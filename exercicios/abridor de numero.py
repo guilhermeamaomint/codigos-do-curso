@@ -1,4 +1,4 @@
-from funcoes import abertura
+from aafuncoes import abertura
 
 #numero = int(input("Digite um numero inteiro: "))
-nmr = abertura(input("Digite um numero: "))
+nmr = abertura(int(input("Digite um numero: ")))
