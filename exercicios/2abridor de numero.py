@@ -1,5 +1,5 @@
-from aafuncoes import abertura
+from funcoes import abrir
 
 numero = int(input("Digite um número inteiro: "))
 
-abertura(numero)
+abrir(numero)
