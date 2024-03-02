@@ -1,5 +1,4 @@
-def abertura(numero):
-    while numero != 0:
-        print(numero)
-        numero = numero - 1
-    print("0")
+def abertura(numero): #versão normal
+    for i in range(numero, -1, -1):
+        print(i, end="")
+
