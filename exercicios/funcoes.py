@@ -50,3 +50,18 @@ def positivonegativozero(numero):
 def calculogorjeta(conta, taxa):
     gorjeta = conta * taxa / 100
     return gorjeta
+
+# 7 contador de letras
+def contaletra(frase, letra):
+    count = 0
+    for contaletra in frase:
+        if contaletra == letra:
+            count += 1
+    return count
+
+# 8 prefixo do true ou false
+def verificaprefixo(palavra1, palavra2):
+    if palavra2.startswith(palavra1):
+        return True
+    else:
+        return False
