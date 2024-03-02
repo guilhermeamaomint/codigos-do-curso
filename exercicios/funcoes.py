@@ -20,7 +20,7 @@ def abrirrecursivo(numero):
 def somatres(a, b, c):
     return a + b + c
 
-# 4 soma total # Duas funções pro mesmo programa 
+# 4 soma total     # Duas funções pro mesmo programa 
 def somatotal(*args):
     soma = 0
     for numero in args:
