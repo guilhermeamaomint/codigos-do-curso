@@ -37,6 +37,7 @@ def vapo():
     resultado = somatotal(*numeros)
     print("A soma de todos os números é:", resultado)
 
+# 5 positivo ou negativo ou zero
 def positivonegativozero(numero):
     if numero > 0:
         return "Positivo"
@@ -44,3 +45,8 @@ def positivonegativozero(numero):
         return "Negativo"
     else:
         return "Zero"
+
+# 6 gorjeta do garçom
+def calculogorjeta(conta, taxa):
+    gorjeta = conta * taxa / 100
+    return gorjeta
